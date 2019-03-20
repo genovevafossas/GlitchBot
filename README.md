@@ -5,7 +5,8 @@ A Discord chat bot.
 
 This bot primarily uses discord.js and node.js.
 
-Along the way, the guide posted on "An Idiots Guide" was incredibly helpful to me, and you can find that guide [here](https://anidiots.guide/first-bot/your-first-bot).
+Along the way, the guide posted on "An Idiots Guide" was incredibly helpful to me, and you can find that guide [here.](https://anidiots.guide/first-bot/your-first-bot).
+I used their method for implementing the commands and events.
 
 The [enmap](https://www.npmjs.com/package/enmap) package was also integral to making this bot possible.
 
