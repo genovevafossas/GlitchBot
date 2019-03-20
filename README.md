@@ -17,7 +17,7 @@ The commands implemented are as follows:
 - !help
   - Basic help command. Lists available commands.
 - !addrole
-  - Adds a role that is able to be self added (determined by positon) to a user.
+  - Adds a role that is able to be self added (determined by position) to a user.
 - !removerole
   - Removes a role that is able to be self-removed (also determined by position) to a user.
 - !listroles
