@@ -1,12 +1,11 @@
 # GlitchBot
-A Discord chat bot.
+A Discord chat bot. I created this bot to primarily learn and become more familiar with JavaScript and Node.js.
 
 ## Resources
 
 This bot primarily uses discord.js and node.js.
 
-Along the way, the guide posted on "An Idiots Guide" was incredibly helpful to me, and you can find that guide [here.](https://anidiots.guide/first-bot/your-first-bot).
-I used their method for implementing the commands and events.
+Along the way, the guide posted on "An Idiots Guide" was incredibly helpful to me, and you can find that guide [here](https://anidiots.guide/first-bot/your-first-bot). I used their method for implementing the commands and events, as commando was a bit too much to chew.
 
 The [enmap](https://www.npmjs.com/package/enmap) package was also integral to making this bot possible.
 
