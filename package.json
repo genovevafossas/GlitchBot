@@ -1,0 +1,16 @@
+{
+  "name": "glitchbot",
+  "version": "1.0.0",
+  "description": "Discord Chat Bot.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "enmap": "^4.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Genoveva Fossas",
+  "license": "ISC"
+}
