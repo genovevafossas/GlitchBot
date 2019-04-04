@@ -1,12 +1,5 @@
-//array of greetings for when the bot is called by name.
-const greetings = [
-    "Yes?",
-    "You called?",
-    "Hello!",
-    "I am present.",
-    "How can I help you?"
-]
-
+//array of greetings imported from dialogue for when the bot is called by name.
+const {Greetings} = require("./../dialogue.json");
 
 module.exports = (bot, message) => {
     //ignore all bots.
@@ -18,7 +11,7 @@ module.exports = (bot, message) => {
         //adressing bot by name, ignoring any capitalization through reg expression
         if (message.content.match(/glitchbot/i)) {
             //randomly selects a greeting from the anove 
-            var selected = greetings[Math.floor(Math.random()*greetings.length)];
+            var selected = Greetings[Math.floor(Math.random()*Greetings.length)];
             message.channel.send(selected).catch(bot.error);
         }
         return;

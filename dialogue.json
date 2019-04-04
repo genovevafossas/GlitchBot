@@ -1,0 +1,37 @@
+{
+
+"Quotes" : [
+    "\"Music is enough for a lifetime, but a lifetime is not enough for music.\" ― Sergei Rachmaninov",
+
+    "\"Technology is an interesting subject, people thinking: how much good, and how much bad, does it inherently carry?\" - Thomas Bangalter",
+
+    "\"The spirit of house music, electronic music, in the beginning was to break the rules, to do things in many different ways.\" - Thomas Bangalter",
+
+    "\"A cello was there 400 years ago and will still be here in 400 years.\" - Thomas Bangalter",
+
+    "\"Technology is fascinating.\" - Thomas Bangalter"
+],
+
+"Greetings" : [
+    "Yes?",
+    "You called?",
+    "Hello!",
+    "I am present.",
+    "How can I help you?"
+],
+
+
+"HelpMessage" : [
+    "The current commands are as follows: ",
+    "```",
+    "_help - displays all commands.",
+    "_addrole [role name] - gives you the specified role.",
+    "_removerole [role name] - removes the specified role from you.",
+    "_listroles - sends a list of roles that can be added by _addrole.",
+    "_quote - sends a random quote.",
+    "_info - displays information about GlitchBot.",
+    "```",
+    "__Note:__ You can refer to the bot by GlitchBot and receive a greeting. *(case sensitive)*"
+]
+
+}
