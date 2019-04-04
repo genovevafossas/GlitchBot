@@ -28,7 +28,12 @@ The commands implemented are as follows:
 ### Message Replies
 The bot also responds to certain phrases in messages. The bot responds to:
 - Its name
-  - Regardless of capitalization (handled by a regular expression) the bot will respond to "glitchbot" with one of the designated phrases indicated in the file.
+  - Bot will respond to "GlitchBot" with exact capitalization and when it is mentioned as it own word.
+  - Regular expression uses a negative lookahead and a negative lookbehind to filter out situations in which the bot will respond.
+    - Negative lookahead
+      - Will allow a match if the word "GlitchBot" isn't preceded by [0-9], [a-z], [A-Z] or _. I also added / into what will be recognized as something that can't proceed the word, in order to avoid matching of links and custom emojis in the discord server.
+    - Negative lookbehind
+      - Same as above, only it checks what the word is succeded by.
 
 ### Some Considerations
 #### Roles

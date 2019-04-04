@@ -9,8 +9,8 @@ module.exports = (bot, message) => {
     if(message.content.indexOf(bot.config.prefix) !== 0) {
 
         //adressing bot by name, ignoring any capitalization through reg expression
-        if (message.content.match(/glitchbot/i)) {
-            //randomly selects a greeting from the anove 
+        if (message.content.match(/(?<!(\w|[\/]))(GlitchBot)(?!(\w|[\/]))/)) {
+            //randomly selects a greeting from the above 
             var selected = Greetings[Math.floor(Math.random()*Greetings.length)];
             message.channel.send(selected).catch(bot.error);
         }

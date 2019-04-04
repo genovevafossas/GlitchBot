@@ -24,14 +24,12 @@
 "HelpMessage" : [
     "The current commands are as follows: ",
     "```",
-    "_help - displays all commands.",
-    "_addrole [role name] - gives you the specified role.",
-    "_removerole [role name] - removes the specified role from you.",
-    "_listroles - sends a list of roles that can be added by _addrole.",
-    "_quote - sends a random quote.",
-    "_info - displays information about GlitchBot.",
+    "!help - displays all commands.",
+    "!addrole [role name] - gives you the specified role.",
+    "!removerole [role name] - removes the specified role from you.",
+    "!listroles - sends a list of roles that can be added by _addrole.",
+    "!quote - sends a random quote.",
     "```",
     "__Note:__ You can refer to the bot by GlitchBot and receive a greeting. *(case sensitive)*"
 ]
-
 }
