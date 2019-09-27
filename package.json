@@ -4,8 +4,8 @@
   "description": "Discord Chat Bot.",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^11.4.2",
-    "enmap": "^4.8.1"
+    "discord.js": "^11.5.1",
+    "enmap": "^4.8.7"
   },
   "devDependencies": {},
   "scripts": {
